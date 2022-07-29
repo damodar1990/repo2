@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestAPI.getplace"/>
+      <class name="TestAPI.AddPlace"/>
+      <class name="TestAPI.updatePlace1"/>
+      <class name="TestAPI.deleteplace"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
